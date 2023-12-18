@@ -12,6 +12,7 @@ body{
     background-repeat: no-repeat;
     min-height: 100vh;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 header{
@@ -57,7 +58,7 @@ header{
 .parallax img{
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     pointer-events: none;
 }
