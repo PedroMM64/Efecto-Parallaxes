@@ -1,13 +1,117 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parallax 7</title>
+
+    <link rel="stylesheet" href="parallax7.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="parallax-home" id="home">
+        <img src="Home-Images/sky.png" alt="sky" id="sky">
+        <img src="Home-Images/moon.png" alt="moon" id="moon">
+        <img src="Home-Images/water.png" alt="water" id="water">
+        <img src="Home-Images/center-city.png" alt="center-city" id="center-city">
+        <img src="Home-Images/right-city.png" alt="right-city" id="right-city">
+        <img src="Home-Images/left-city.png" alt="left-city" id="left-city">
+        <img src="Home-Images/train.png" alt="train" id="train">
+        <img src="Home-Images/rail.png" alt="rail" id="rail">
+        <h1 id="text">Parallax Website</h1>
+        <a href="../../index.html" class="button" id="button">Regresar al índice</a>
+        <img src="Home-Images/hill-left-1.png" alt="hill-left-1" id="hill-left-1">
+        <img src="Home-Images/hill-right-1.png" alt="hill-right-1" id="hill-right-1">
+    </section>
+
+    <section id="about" class="about">
+        <div class="info-box">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores et atque aspernatur, voluptatem
+                molestias in? Suscipit ipsum inventore iste ut ex odio libero quibusdam incidunt, molestias laboriosam.
+            </p>
+            <a href="#" class="btn">Read More!</a>
+        </div>
+
+        <img src="About-Images/waterfall.png" alt="waterfall" id="waterfall" class="about-waterfall">
+        <img src="About-Images/desert-sky.png" alt="desert-sky" id="desert-sky">
+        <img src="About-Images/desert-moon.png" alt="desert-moon" id="desert-moon">
+        <img src="About-Images/desert-NoSky.png" alt="desert-NoSky" id="desert-NoSky">
+        <img src="About-Images/desert-rock.png" alt="desert-rock" id="desert-rock">
+        <img src="About-Images/water.png" alt="water" id="water">
+        <img src="About-Images/man.png" alt="man" id="man">
+        <img src="About-Images/grass.png" alt="grass" id="grass">
+
+        <div id="progress">
+            <span id="progress-value">
+                <i class='bx bxs-chevrons-up' style="font-size: 1.5rem;"></i>
+            </span>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h2>Our Products</h2>
+        <div class="products-card">
+            <div class="card">
+                <img src="products/Salmon.png" alt="Salmon">
+                <div class="info">
+                    <div class="price-name">
+                        <h3>Salmon</h3>
+                        <span>$120</span>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, deleniti.</p>
+                    <a href="#" class="btn">Go shop</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="products/Tuna.png" alt="Tuna">
+                <div class="info">
+                    <div class="price-name">
+                        <h3>Tuna</h3>
+                        <span>$120</span>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, deleniti.</p>
+                    <a href="#" class="btn">Go shop</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="products/Swordfish.png" alt="Swordfish">
+                <div class="info">
+                    <div class="price-name">
+                        <h3>Swordfish</h3>
+                        <span>$120</span>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, deleniti.</p>
+                    <a href="#" class="btn">Go shop</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="products/Snapper.png" alt="Snapper">
+                <div class="info">
+                    <div class="price-name">
+                        <h3>Snapper</h3>
+                        <span>$120</span>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, deleniti.</p>
+                    <a href="#" class="btn">Go shop</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="script.js"></script>
 </body>
+
 </html>
